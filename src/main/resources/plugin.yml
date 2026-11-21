@@ -1,0 +1,9 @@
+name: SunfireAbilities
+version: 1.0
+main: com.mistgrove.sunfire.SunfirePlugin
+api-version: '1.21'
+commands:
+  sunfire:
+    description: Opens the Sunfire ability selector for a player's held item
+    usage: /sunfire <player>
+    permission: sunfire.admin
